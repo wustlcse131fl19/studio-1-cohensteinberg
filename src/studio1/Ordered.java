@@ -13,6 +13,10 @@ public class Ordered {
 		int y = ap.nextInt("Value for y?");
 		int z = ap.nextInt("Value for z?");
 
+		boolean number = x < y;
+		boolean isOrdered = y < z;
+
+		System.out.println(isOrdered);
 	}
 
 }
